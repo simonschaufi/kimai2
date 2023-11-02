@@ -28,7 +28,9 @@
 /var/log/*
 /var/sessions/*
 /var/packages/*
-/var/plugins*
+/var/plugins/*
+!/var/plugins/CustomerEmailReportBundle
+/var/plugins/*/*.disabled
 
 ###> symfony/framework-bundle ###
 /.env.local
