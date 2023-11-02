@@ -1,0 +1,3 @@
+[submodule "var/plugins/CustomerEmailReportBundle"]
+	path = var/plugins/CustomerEmailReportBundle
+	url = git@github.com:simonschaufi/CustomerEmailReportBundle.git
