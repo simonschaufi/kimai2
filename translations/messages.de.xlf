@@ -970,6 +970,10 @@
         <source>stats.amountFinancialYear</source>
         <target>Umsatz dieses Geschäftsjahr</target>
       </trans-unit>
+      <trans-unit id="wuUWovA" resname="stats.amountPreviousFinancialYear">
+        <source>stats.amountFinancialYear</source>
+        <target>Umsatz vorheriges Geschäftsjahr</target>
+      </trans-unit>
       <trans-unit id="Z0fz23v" resname="stats.amountTotal">
         <source>stats.amountTotal</source>
         <target>Umsatz gesamt</target>
@@ -982,6 +986,10 @@
         <source>stats.userAmountWeek</source>
         <target>Mein Umsatz diese Woche</target>
       </trans-unit>
+      <trans-unit id="LDS9o5A" resname="stats.userAmountPreviousWeek">
+        <source>stats.userAmountWeek</source>
+        <target>Mein Umsatz vorherige Woche</target>
+      </trans-unit>
       <trans-unit id="E3Kj9lt" resname="stats.userAmountMonth">
         <source>stats.userAmountMonth</source>
         <target>Mein Umsatz diesen Monat</target>
@@ -989,6 +997,10 @@
       <trans-unit id="xvdsZsS" resname="stats.userAmountYear">
         <source>stats.userAmountYear</source>
         <target>Mein Umsatz dieses Jahr</target>
+      </trans-unit>
+      <trans-unit id="xvdsZsA" resname="stats.userAmountPreviousYear">
+        <source>stats.userAmountYear</source>
+        <target>Mein Umsatz vorheriges Jahr</target>
       </trans-unit>
       <trans-unit id="9jlbhkf" resname="stats.userAmountTotal">
         <source>stats.userAmountTotal</source>

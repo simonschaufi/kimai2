@@ -46,7 +46,7 @@ final class UserDurationYear extends AbstractCounterYear
     /**
      * @param array<string, string|bool|int|null|array<string, mixed>> $options
      */
-    protected function getYearData(\DateTimeInterface $begin, \DateTimeInterface $end, array $options = []): mixed
+    protected function getYearData(\DateTimeInterface $begin, \DateTimeInterface $end, array $options = []): int
     {
         try {
             return $this->repository->getDurationForTimeRange($begin, $end, $this->getUser());
