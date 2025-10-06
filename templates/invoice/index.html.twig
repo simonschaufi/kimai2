@@ -104,6 +104,8 @@
                             <th class="d-sm-table-cell d-none"></th>
                             <th>{{ 'customer'|trans }}</th>
                             <th class="w-min text-end d-sm-table-cell d-none">{{ 'duration'|trans }}</th>
+                            <th class="w-min text-end d-sm-table-cell d-none">{{ 'invoice.subtotal'|trans }}</th>
+                            <th class="w-min text-end d-sm-table-cell d-none">{{ 'vat'|trans }}</th>
                             <th class="w-min text-end d-sm-table-cell d-none">{{ 'total_rate'|trans }}</th>
                             <th class="w-min text-center actions alwaysVisible"></th>
                         </tr>
@@ -131,6 +133,12 @@
                                     {{ model.calculator.timeWorked|duration(isDecimal) }}
                                 </td>
                                 <td class="w-min text-end d-sm-table-cell d-none">
+                                    {{ model.calculator.subtotal|money(currency) }}
+                                </td>
+                                <td class="w-min text-end d-sm-table-cell d-none">
+                                    {{ model.calculator.vat }}%
+                                </td>
+                                <td class="w-min text-end d-sm-table-cell d-none">
                                     <span title="{{ 'vat'|trans }}: {{ model.calculator.tax|money(currency) }}" data-toggle="tooltip">{{ model.calculator.total|money(currency) }}</span>
                                 </td>
                                 <td class="w-min text-center actions alwaysVisible">
@@ -141,7 +149,7 @@
                                 </td>
                             </tr>
                             <tr class="d-none">
-                                <td colspan="5" class="p-2">
+                                <td colspan="7" class="p-2">
                                     {% if not isEmptyModel %}
                                         {% form_theme customerForm 'form/horizontal.html.twig' %}
                                         {{ form_start(customerForm) }}
