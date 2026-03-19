@@ -30,6 +30,7 @@
 /var/packages/*
 /var/plugins/*
 !/var/plugins/CustomerEmailReportBundle
+!/var/plugins/InvoicePaymentReminderBundle
 /var/plugins/*/*.disabled
 
 ###> symfony/framework-bundle ###
