@@ -7,3 +7,6 @@
 [submodule "var/plugins/SendInvoiceEmailBundle"]
 	path = var/plugins/SendInvoiceEmailBundle
 	url = git@github.com:simonschaufi/SendInvoiceEmailBundle.git
+[submodule "var/plugins/KimaiJiraSyncBundle"]
+	path = var/plugins/KimaiJiraSyncBundle
+	url = git@github.com:simonschaufi/KimaiJiraSyncBundle.git
