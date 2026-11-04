@@ -64,7 +64,7 @@ class InvoiceTemplate implements EntityWithMetaFields
     private string $numberGenerator = 'default';
     #[ORM\Column(name: 'renderer', type: Types::STRING, length: 20, nullable: false)]
     #[Assert\NotBlank]
-    #[Assert\Length(max: 20)]
+    #[Assert\Length(max: 50)]
     private string $renderer = 'default';
     #[ORM\Column(name: 'payment_terms', type: Types::TEXT, nullable: true)]
     private ?string $paymentTerms = null;
