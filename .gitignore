@@ -33,6 +33,7 @@
 !/var/plugins/InvoicePaymentReminderBundle
 !/var/plugins/SendInvoiceEmailBundle
 !/var/plugins/KimaiJiraSyncBundle
+!/var/plugins/ShortTimeEntriesBundle
 /var/plugins/*/*.disabled
 
 ###> symfony/framework-bundle ###
