@@ -232,7 +232,7 @@ final class CustomerController extends AbstractController
         $query = new ProjectQuery();
         $query->setCurrentUser($this->getUser());
         $query->setPage($page);
-        $query->setPageSize(5);
+        $query->setPageSize(10);
         $query->addCustomer($customer);
         $query->setVisibility(VisibilityInterface::SHOW_BOTH);
         $query->addOrderGroup('visible', ProjectQuery::ORDER_DESC);

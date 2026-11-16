@@ -258,7 +258,7 @@ final class ProjectController extends AbstractController
         $query = new ActivityQuery();
         $query->setCurrentUser($this->getUser());
         $query->setPage($page);
-        $query->setPageSize(5);
+        $query->setPageSize(10);
         $query->addProject($project);
         $query->setExcludeGlobals(true);
         $query->setVisibility(VisibilityInterface::SHOW_BOTH);
